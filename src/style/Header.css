@@ -1,0 +1,15 @@
+.headerContainer {
+    display: flex;
+    text-align: center;
+   
+}
+
+.navBarLogo {
+    margin-top: 60px;
+    margin-left: 212px;
+    margin-right: 58px;
+    margin-bottom: 60px;
+    width: 278px;
+    
+
+}
