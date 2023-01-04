@@ -6,7 +6,9 @@ import navLogo from '../img/navLogo.png'
 const Header = () => {
     return (
         <div className='headerContainer'>
-            <img className='navBarLogo'  src={navLogo} alt="navigation logo" />
+            <div className='containerImg'>
+                <img className='navBarLogo'  src={navLogo} alt="navigation logo" />
+            </div>
             <NavBar />
         </div>
     );

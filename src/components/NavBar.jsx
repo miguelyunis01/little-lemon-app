@@ -5,12 +5,12 @@ const NavBar = () => {
     return (
         <nav className='navBar'>
             <ul className='navMenu'>
-                <li className='liMenu' ><a href=""></a>Home</li>
-                <li className='liMenu' ><a href=""></a>About</li>
-                <li className='liMenu' ><a href=""></a>Menu</li>
-                <li className='liMenu' ><a href=""></a>Reservation</li>
-                <li className='liMenu' ><a href=""></a>Order Online</li>
-                <li className='liMenu' ><a href=""></a>Login</li>
+                <li className='liMenu' >Home</li>
+                <li className='liMenu' >About</li>
+                <li className='liMenu' >Menu</li>
+                <li className='liMenu' >Reservation</li>
+                <li className='liMenu' >Order Online</li>
+                <li className='liMenu' >Login</li>
             </ul>
         </nav>
     );
