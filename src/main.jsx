@@ -4,6 +4,8 @@ import App from './App'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import BookingPage from './pages/BookingPage'
+import {action as newBookingAtion, loader as newBookingLoader} from './components/FormBook'
+import BookingConfirm, {loader as bookingConfirmLoader} from './pages/BookingConfirm'
 
 const router = createBrowserRouter([
   {
@@ -11,8 +13,15 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: '/booking/new',
-    element: <BookingPage />
+    path: '/booking/:bookId/new',
+    element: <BookingPage />,
+    action: newBookingAtion,
+    loader: newBookingLoader
+  },
+  {
+    path: '/booking/confirm',
+    element:<BookingConfirm />,
+    loader: bookingConfirmLoader
   }
 ])
 

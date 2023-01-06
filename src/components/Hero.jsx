@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import '../style/Hero.css'
 
 const Hero = () => {
@@ -14,11 +15,13 @@ const Hero = () => {
             <p className='textArticle'>
                 We are a family owned Mediterranean restaurant, focused on tradicional recipes served with a modern twist
             </p>
-            <button
+            <Link
                 className='bookingBtn'
+                type='button'
+                to="/booking/:bookId/new"
             >
                 Reserve a Table
-            </button>
+            </Link>
         </div>
     );
 };

@@ -1,12 +1,19 @@
-import React from 'react';
-import Form from '../components/Form';
+import {useState, useEffect} from 'react';
+import FormBook from '../components/FormBook';
 import Header from '../components/Header';
+import Footer from '../components/Footer'
 
 const BookingPage = () => {
+    
+    
+
     return (
         <div>
            <Header />
-           <Form />
+           <FormBook
+           
+           />
+           <Footer />
         </div>
     );
 };

@@ -31,13 +31,14 @@
     font-weight: 400;
     color: white;
     margin-top: 0;
+    margin-bottom: 30px;
 }
 .bookingBtn {
     margin-left: 212px;
     height: 46px;
     width: 149px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
     border: none;
     border-radius: 15px;
     background-color: #F4CE14;
@@ -45,6 +46,9 @@
     font-family: 'Karla', sans-serif;
     font-weight: 700;
     cursor: pointer;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .heroImg{
     box-sizing: border-box;
